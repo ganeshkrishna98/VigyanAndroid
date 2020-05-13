@@ -1,0 +1,2 @@
+rootProject.name='Vigyan'
+include ':app'

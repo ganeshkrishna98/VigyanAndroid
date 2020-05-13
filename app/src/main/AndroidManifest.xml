@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ksu_cem.vigyan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.me_lec_vid.Me_lec_s8_MainActivity"></activity>
+        <activity android:name=".ui.me_lec_vid.Me_lec_s7_MainActivity" />
+        <activity android:name=".ui.me_lec_vid.Me_lec_s6_MainActivity" />
+        <activity android:name=".ui.me_lec_vid.Me_lec_s5_MainActivity" />
+        <activity android:name=".ui.me_lec_vid.Me_lec_s4_MainActivity" />
+        <activity android:name=".ui.me_lec_vid.Me_lec_s3_MainActivity" />
+        <activity android:name=".ui.me_lec_vid.Me_lec_s12_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s8_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s7_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s6_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s5_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s4_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s3_MainActivity" />
+        <activity android:name=".ui.ee_lec_vid.Ee_lec_s12_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s8_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s7_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s6_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s5_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s4_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s3_MainActivity" />
+        <activity android:name=".ui.ec_lec_vid.Ec_lec_s12_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s8_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s7_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s6_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s5_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s4_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s3_MainActivity" />
+        <activity android:name=".ui.cs_lec_vid.Cs_lec_s12_MainActivity" />
+        <activity
+            android:name=".Teacher_Webview_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.notification_act.Mech_not_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.notification_act.Elec_ec_not_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.notification_act.Elec_comm_not_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.notification_act.Comp_not_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s12_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s12_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s12_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s12_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s8_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s7_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s6_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s5_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s4_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_notes.Mech_s3_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s8_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s7_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s6_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s5_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s4_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_notes.Elec_ec_s3_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s8_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s7_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s6_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s5_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s4_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_notes.Elec_comm_s3_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s3_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s4_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s5_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s6_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s7_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_notes.Comp_sci_s8_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.dash_lec_vid.Mech_lec_vid_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_qstnp.Mech_qstnp_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_lec_vid.Elec_ec_lec_vid_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_qstnp.Elec_ec_qstnp_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_lec_vid.Elec_comm_lec_vid_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_qstnp.Elec_comm_qstnp_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_lec_vid.Comp_sci_lec_vid_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_qstnp.Comp_sci_qstnp_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_notes.Mech_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_notes.Elec_ec_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_notes.Elec_comm_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.dash_notes.Comp_sci_notes_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

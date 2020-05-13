@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/baseline_class_black_18dp"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/navigation_qstnp"
+        android:icon="@drawable/baseline_description_black_18dp"
+        android:title="@string/question_papers" />
+
+    <item
+        android:id="@+id/navigation_lecvid"
+        android:icon="@drawable/baseline_movie_black_18dp"
+        android:title="@string/lecture_videos" />
+
+</menu>
