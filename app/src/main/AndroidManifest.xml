@@ -13,34 +13,91 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.me_lec_vid.Me_lec_s8_MainActivity"></activity>
-        <activity android:name=".ui.me_lec_vid.Me_lec_s7_MainActivity" />
-        <activity android:name=".ui.me_lec_vid.Me_lec_s6_MainActivity" />
-        <activity android:name=".ui.me_lec_vid.Me_lec_s5_MainActivity" />
-        <activity android:name=".ui.me_lec_vid.Me_lec_s4_MainActivity" />
-        <activity android:name=".ui.me_lec_vid.Me_lec_s3_MainActivity" />
-        <activity android:name=".ui.me_lec_vid.Me_lec_s12_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s8_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s7_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s6_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s5_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s4_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s3_MainActivity" />
-        <activity android:name=".ui.ee_lec_vid.Ee_lec_s12_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s8_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s7_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s6_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s5_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s4_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s3_MainActivity" />
-        <activity android:name=".ui.ec_lec_vid.Ec_lec_s12_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s8_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s7_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s6_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s5_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s4_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s3_MainActivity" />
-        <activity android:name=".ui.cs_lec_vid.Cs_lec_s12_MainActivity" />
+
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s8_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s7_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s6_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s5_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s4_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s3_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.me_lec_vid.Me_lec_s12_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s8_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s7_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s6_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s5_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s4_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s3_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ee_lec_vid.Ee_lec_s12_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s8_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s7_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s6_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s5_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s4_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s3_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ec_lec_vid.Ec_lec_s12_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s8_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s7_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s6_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s5_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s4_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s3_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cs_lec_vid.Cs_lec_s12_MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Teacher_Webview_MainActivity"
             android:screenOrientation="portrait" />
