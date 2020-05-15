@@ -37,7 +37,7 @@ class Elec_comm_not_MainActivity : AppCompatActivity() {
                 super.onPageFinished(view, url)
             }
         }
-        webView.loadUrl("http://vigyan-portal.herokuapp.com/")
+        webView.loadUrl("https://vigyannotice.web.app/")
 
     }
 }
