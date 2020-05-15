@@ -38,7 +38,7 @@ class Teacher_Webview_MainActivity : AppCompatActivity() {
             }
 
         }
-        webView.loadUrl("http://vigyan-portal.herokuapp.com/")
+        webView.loadUrl("https://vigyanportal.web.app")
     }
 }
 
