@@ -52,7 +52,7 @@ class Mech_s4_notes_MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, uris6)
             startActivity(intent)
         }
-        val btn14 = findViewById<Button>(R.id.button14)//ls btn
+        val btn14 = findViewById<Button>(R.id.button13)//ls btn
         btn14.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, uris8)
             startActivity(intent)

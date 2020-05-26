@@ -52,7 +52,7 @@ class Comp_sci_s3_notes_MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, edcuri)
             startActivity(intent)
         }
-        val btn14 = findViewById<Button>(R.id.button14)// life skills btn
+        val btn14 = findViewById<Button>(R.id.button13)// life skills btn
         btn14.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, lsuri)
             startActivity(intent)
