@@ -31,7 +31,7 @@ class Me_lec_s8_MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, uris3)
             startActivity(intent)
         }
-        val btn13 = findViewById<Button>(R.id.button13)//ele btn
+        val btn13 = findViewById<Button>(R.id.button11)//ele btn
         btn13.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, uris7)
             startActivity(intent)
