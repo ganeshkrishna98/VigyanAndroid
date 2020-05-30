@@ -15,11 +15,11 @@ class Comp_sci_s8_notes_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val uris1: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1lESxp0DbsRAu2woSHfZenSrdmIZo0uDE") //dm
+            Uri.parse("https://drive.google.com/drive/folders/1zkdpxaOU5LJ29Mk0zv4Rf3AcAW3GCeXG?usp=sharing") //dm
         val uris3: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1mh3dCbl2UyaXZcHTEaf0KrbYZ6f81zS1") //es
+            Uri.parse("https://drive.google.com/drive/folders/1r0N2T61DHxRH4daoZ1fDkPn68izd3pOj?usp=sharing") //es
         val uris5: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1WQLMpyd3o_LlCQ6Qr4l3d1b6XZMYSM0_") //el1
+            Uri.parse("https://drive.google.com/drive/folders/1p0YcgjdowiIw4I5elyVNkeaCq5Jrl8Lt?usp=sharing") //el1
 
 
         val btn8 = findViewById<Button>(R.id.button8)

@@ -15,11 +15,11 @@ class Elec_comm_s8_notes_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val uris1: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/19C6_zxaWMkeePUOoptBgIkmJcDUg0W2q")//ne
+            Uri.parse("https://drive.google.com/drive/folders/1moyB5sfSgTrl7ccdNqV7_BloCQTsoJNY?usp=sharing")//ne
         val uris3: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/19dtNJjOLn2gBBa05VPF3MvJwiOSpGblm")//acs
+            Uri.parse("https://drive.google.com/drive/folders/1xXNg1d06e4IL68qY4mXUHVCtj5FoxRw7?usp=sharing")//acs
         val uris7: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1UrxNtjtC6c_n0GJGz1wX3RglOzdyE0AL")//ele
+            Uri.parse("https://drive.google.com/drive/folders/1XwJ3WOYf0mLZ-SoE6kUWdqEMnp0nSmWv?usp=sharing")//ele
 
         val btn8 = findViewById<Button>(R.id.button8) //ne btn
         btn8.setOnClickListener{
@@ -31,7 +31,7 @@ class Elec_comm_s8_notes_MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, uris3)
             startActivity(intent)
         }
-        val btn13 = findViewById<Button>(R.id.button13) //ele btn
+        val btn13 = findViewById<Button>(R.id.button11) //ele btn
         btn13.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, uris7)
             startActivity(intent)
