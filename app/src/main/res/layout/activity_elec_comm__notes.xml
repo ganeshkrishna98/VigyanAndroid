@@ -138,18 +138,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline73"
         app:layout_constraintTop_toTopOf="@+id/guideline56" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/notifbtnec"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:focusable="true"
-        app:layout_constraintBottom_toTopOf="@+id/guideline66"
-        app:layout_constraintEnd_toStartOf="@+id/guideline68"
-        app:layout_constraintStart_toStartOf="@+id/guideline67"
-        app:layout_constraintTop_toTopOf="@+id/guideline65"
-        app:srcCompat="@drawable/ic_notifications_black_24dp" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline53"
         android:layout_width="wrap_content"
@@ -247,20 +235,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.9822695" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline67"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.03892944" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline68"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.17518248" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline69"

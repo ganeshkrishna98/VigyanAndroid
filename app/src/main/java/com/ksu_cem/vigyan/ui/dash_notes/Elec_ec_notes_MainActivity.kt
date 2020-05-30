@@ -4,11 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.ksu_cem.vigyan.R
 import com.ksu_cem.vigyan.ui.ee_notes.*
-import com.ksu_cem.vigyan.ui.notification_act.Comp_not_MainActivity
-import com.ksu_cem.vigyan.ui.notification_act.Elec_ec_not_MainActivity
 
 class Elec_ec_notes_MainActivity : AppCompatActivity() {
 
@@ -50,11 +47,6 @@ class Elec_ec_notes_MainActivity : AppCompatActivity() {
         val btn21 = findViewById<Button>(R.id.button21)
         btn21.setOnClickListener{
             val intent = Intent(this, Elec_ec_s8_notes_MainActivity::class.java)
-            startActivity(intent)
-        }
-        val notifbtnee = findViewById<FloatingActionButton>(R.id.notifbtnee)
-        notifbtnee.setOnClickListener{
-            val intent = Intent(this, Elec_ec_not_MainActivity::class.java)
             startActivity(intent)
         }
     }
