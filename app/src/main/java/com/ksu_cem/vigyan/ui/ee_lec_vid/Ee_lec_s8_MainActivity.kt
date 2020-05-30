@@ -15,11 +15,11 @@ class Ee_lec_s8_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val uris1: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1wgHF8quiUw-V42svaFd6zNOjz8uWU7rz")//sem
+            Uri.parse("https://drive.google.com/drive/folders/1z0iMj-EwvN1h5DnP0Q0uNVC_cJZm9QO0?usp=sharing")//sem
         val uris3: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1wdqiQJ0DNHxnj01MqWdE1HXhNvxxDPXl")//iia
+            Uri.parse("https://drive.google.com/drive/folders/18EGgEeZQPR1HIhbljYA4ZDcAGwKdN8Lu?usp=sharing")//iia
         val uris7: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1Htc8tc-Xcv10Sz1UtlkE1XAWNwWx2Pj5")//ele
+            Uri.parse("https://drive.google.com/drive/folders/1U05Rl3BfVKybc4_zoPXMreYsB_fg0WgU?usp=sharing")//ele
 
         val btn8 = findViewById<Button>(R.id.button8)//sem btn
         btn8.setOnClickListener{

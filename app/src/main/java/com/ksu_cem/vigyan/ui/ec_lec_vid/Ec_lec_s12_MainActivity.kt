@@ -15,25 +15,25 @@ class Ec_lec_s12_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val epuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1MeFAG3x2JQKa-RRY2tTOG7Cm7_4i3nWg")
+            Uri.parse("https://drive.google.com/drive/folders/1J0e1iJ8EVxiu26ryEliZgkC4Is_G0fgZ?usp=sharing")
         val pcuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/10GStu9LTY56Tgv_n1f9k1XuuVwBUwTK0")
+            Uri.parse("https://drive.google.com/drive/folders/1dbBxkAfEUIfHT3FTiHAZtXoWxI-qstCo?usp=sharing")
         val ecuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1-gmqH8HvG5MI-wCRbpT3gOCOTCWoWWjt")
+            Uri.parse("https://drive.google.com/drive/folders/1QnHlJ9H8xZkqYm9dV0hXMWVCI8l2whvj?usp=sharing")
         val emuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/107UgrhxCs8hSF6zSUzsr9IoEJdukaIdv")
+            Uri.parse("https://drive.google.com/drive/folders/1Ki41Zs0G2HMgG42sx1yvlV0t2Th24DBT?usp=sharing")
         val eguri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1170_uGIBtfhMWVN1b-PyUR2--kIeUAkB")
+            Uri.parse("https://drive.google.com/drive/folders/16nZiND3SFkxKbbwk4XBwtCJT96fNPAAx?usp=sharing")
         val beeuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1-Dz5YeTKi7y0hndbsf-UoWQr3cx5WRvE")
+            Uri.parse("https://drive.google.com/drive/folders/1KBjBmi29RVzX_HRspM54Tk_kpREcJfVN?usp=sharing")
         val lsuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1-8m-nPEKUFWRPwbCacrqCZE7M1uDMf3G")
+            Uri.parse("https://drive.google.com/drive/folders/1NI3KfJGM4sc8iStDwNwH46DIajfK9wCA?usp=sharing")
         val bmeuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1-KxgUjKLsJXifjZN0az7yGbop4VTKQgU")
+            Uri.parse("https://drive.google.com/drive/folders/1o6xn2zmz-SxQPSOAd8PTGvYJXHQINCJJ?usp=sharing")
         val deuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/10ZBU0mOL8doccdmfxhbvvKII8HGuggBX")
+            Uri.parse("https://drive.google.com/drive/folders/1q-g0xc7UK0VjMQVEZXUN3kdo0nRwdOVa?usp=sharing")
         val lacuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/10iwYxCfHS-rjwKAwCENyapHbFYNvHokN")
+            Uri.parse("https://drive.google.com/drive/folders/1p33birokcTucpZSL9szRXZsI0wKP28_n?usp=sharing")
 
         val btn8 = findViewById<Button>(R.id.button8)
         btn8.setOnClickListener{

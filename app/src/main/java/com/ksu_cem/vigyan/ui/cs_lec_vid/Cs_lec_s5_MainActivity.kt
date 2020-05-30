@@ -15,17 +15,17 @@ class Cs_lec_s5_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val tcuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1d8Hhr7DhsG9xXGx8DBqMV0LOWkbZpRel")//theo comp lnk
+            Uri.parse("https://drive.google.com/drive/folders/1-iT8OzIWkYwIbRRNxGAg7PPWaZ7RX0r0?usp=sharing")//theo comp lnk
         val ssuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1d-AnsWf2I83HaLS5Qq1RG5oLOAzvuXyE")// sys sw lnk
+            Uri.parse("https://drive.google.com/drive/folders/1zjedAbBkjGVB4DfP5OZkdW252YhF5EHB?usp=sharing")// sys sw lnk
         val mpuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1cusBE24bvvPSVaUmZV7NCrO0gsNEXcx5")// micropro lnk
+            Uri.parse("https://drive.google.com/drive/folders/1Req-H3mQViD3R7j47ip7QQztIrVDRM5W?usp=sharing")// micropro lnk
         val dcuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1eOyyQzZ4z1Cwlw8e0BmIoagmCwnhF6iA")//data comm lnk
+            Uri.parse("https://drive.google.com/drive/folders/1hRL54RLODAuGvNia77HNyJCcPhA_pphf?usp=sharing")//data comm lnk
         val gturi: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1eBozu4vccBJI630J5M2TU1PYkYXjS4Nw")// graph theo lnk
+            Uri.parse("https://drive.google.com/drive/folders/1fjTIENTxWhqOo6yqeCHYpQxnaAg3Knm-?usp=sharing")// graph theo lnk
         val eluri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1ootdN4yRnRTuQTi1AjL_DfGXx112IoBc")//elective
+            Uri.parse("https://drive.google.com/drive/folders/1xOJUN77nh6ZAW49yGBxupxk098mofSmQ?usp=sharing")//elective
 
         val btn8 = findViewById<Button>(R.id.button8) //theory of comp btn
         btn8.setOnClickListener{

@@ -15,17 +15,17 @@ class Cs_lec_s3_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val lacauri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1aidhd8PsBclJp_YQ7ZRmuTK7pIdXzXVd")// laca lnk
+            Uri.parse("https://drive.google.com/drive/folders/1abIViJK9LEZHVEbW_YN5BXI40SBUD28O?usp=sharing")// laca lnk
         val dcuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1_ZkvhHvE3_YuKMAVqL5fP1skt2SlOFL_") // discrete comp link
+            Uri.parse("https://drive.google.com/drive/folders/1nVFgCLVQZq3-oQG0yxpeLb-x-XQZznom?usp=sharing") // discrete comp link
         val sturi: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1a-MEBxavgXkuuzbkLvnj9gPT4f786FGX") // switching theory lnk
+            Uri.parse("https://drive.google.com/drive/folders/1sQ5ZejOiTKPsqFRLFhesEaS5IUeM2TDq?usp=sharing") // switching theory lnk
         val dsuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1_oL8lpaBcSPDT9XMfOiFaRLF0Viw1hb9") //data structure link
+            Uri.parse("https://drive.google.com/drive/folders/1GDseKMiytulaJ96Z8JGM0aIn4mc9peut?usp=sharing") //data structure link
         val edcuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1_iftIlzWc-kOF_vY0ZpdLkAnwYCjlKRn")// electronic device lnk
+            Uri.parse("https://drive.google.com/drive/folders/1irXo_MoqOC2GNTwzafska0ka64i10vVF?usp=sharing")// electronic device lnk
         val lsuri: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1aY9aD4dKa8BpPfDz4TW2P_D8LwBdfs0w")//lifeskil lnk
+            Uri.parse("https://drive.google.com/drive/folders/1yUXwWOLTUZtYH_khmnj8FvISgrYboQ4S?usp=sharing")//lifeskil lnk
 
         val btn8 = findViewById<Button>(R.id.button8)       //laca btn
         btn8.setOnClickListener{

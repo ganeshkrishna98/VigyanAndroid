@@ -15,17 +15,17 @@ class Ec_lec_s6_MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val uris1: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/170iISlUvQDy3tmVsgD5FxUQup6x07FRo")//dc
+            Uri.parse("https://drive.google.com/drive/folders/19C1eERyhNH9q4TNYp0t_ym3VxSNfYHDR?usp=sharing")//dc
         val uris3: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/16ym-lRK365W-pO3J3xW69O7wNdjCrlp4")//vlsi
+            Uri.parse("https://drive.google.com/drive/folders/1i4FwLWQpVPUyaSOXOPcmIcOUS9tUgEz3?usp=sharing")//vlsi
         val uris4: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/16cLNYEAbTwMeJL26FDb277JGeVq92srU")//awp
+            Uri.parse("https://drive.google.com/drive/folders/1I-fb-4I-S3vU0u4v-W3_CtlAgGtNmDrM?usp=sharing")//awp
         val uris5: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/16QmFj8fQteKwvo74yugR0nbzi1w2BX4b")//es
+            Uri.parse("https://drive.google.com/drive/folders/1azcnMtjssAKQZTAO0LIyal30HTE6VBJB?usp=sharing")//es
         val uris6: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/16E2DJ_IbBm2RcnXg5V_iBd20wToic4L5")//oop
+            Uri.parse("https://drive.google.com/drive/folders/1ApBwNOVTgnag6-JZ6RVCk2PsE-e5UMLe?usp=sharing")//oop
         val uris7: Uri =
-            Uri.parse("https://drive.google.com/drive/u/2/folders/1nvMa8N4JCR4uh7BGKTjDlnsZXYmXYHKD")//ele
+            Uri.parse("https://drive.google.com/drive/folders/1eWb9_0hVbSQGyOoJC49d1sehE1dKa7V9?usp=sharing")//ele
 
         val btn8 = findViewById<Button>(R.id.button8)   //dc btn
         btn8.setOnClickListener{
