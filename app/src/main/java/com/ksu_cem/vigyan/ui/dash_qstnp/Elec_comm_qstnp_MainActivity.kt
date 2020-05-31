@@ -14,13 +14,13 @@ class Elec_comm_qstnp_MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_elec_comm_qstnp__main)
         supportActionBar?.hide()
 
-        val uris1: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/1-Vm2HxgTMgfCSbFdiUujxOxVgtc78WiX")
-        val uris3: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/15J7UP-p2AI7mZDT9t3Tc7h-PlkigX4qx")
-        val uris4: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/1kwSOY4IvDpSHA0Zj3dTL1FOFP2wg3mqT")
-        val uris5: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/1FMvylAjS4JfAmPxZ2PB6w8VdEZNTdqLs")
-        val uris6: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/1RBfo1zGSjXNo5hpoqEQ3NSBvZ8aSF6go")
-        val uris7: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/19Ueal9yVDd4iyFpXZUSfQXX9NiSq6Bun")
-        val uris8: Uri = Uri.parse("https://drive.google.com/drive/u/2/folders/1Q2QTX3XiW-LzrSEneJE_Mm8tCLoE0Kv3")
+        val uris1: Uri = Uri.parse("https://drive.google.com/drive/folders/1z6sCTyTUDVIM9cDxlDr1klrXMrw5fCvK?usp=sharing")
+        val uris3: Uri = Uri.parse("https://drive.google.com/drive/folders/1EyQu8YkZtZnv1bs2wc4vry2iU_D9Yh-1?usp=sharing")
+        val uris4: Uri = Uri.parse("https://drive.google.com/drive/folders/1OaHcp0j8xQXw0Zup4dY3qtUGKI716Itb?usp=sharing")
+        val uris5: Uri = Uri.parse("https://drive.google.com/drive/folders/1Ug6hJ6KDB-cctJLmg25g0_P7h23w_khR?usp=sharing")
+        val uris6: Uri = Uri.parse("https://drive.google.com/drive/folders/1FDEMFJQDx13hp6hUYBn77TRPeX5LeGXR?usp=sharing")
+        val uris7: Uri = Uri.parse("https://drive.google.com/drive/folders/1PaDv9zp3UVnrGaEXH-2uRtLAWM3bUksa?usp=sharing")
+        val uris8: Uri = Uri.parse("https://drive.google.com/drive/folders/1nxL3N4pmkjRDnZBlFtlIa-NS4IiIctJw?usp=sharing")
 
         val btn22 = findViewById<Button>(R.id.button22)
         btn22.setOnClickListener{
