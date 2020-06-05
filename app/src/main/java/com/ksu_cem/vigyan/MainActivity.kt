@@ -1,6 +1,7 @@
 package com.ksu_cem.vigyan
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -20,9 +21,10 @@ class MainActivity : AppCompatActivity() {
             }
 
         val btn1 = findViewById<Button>(R.id.button)
+        val openURL = Intent(android.content.Intent.ACTION_VIEW)
         btn1.setOnClickListener{
-            val intent = Intent(this, Teacher_Webview_MainActivity::class.java)
-            startActivity(intent)
+            openURL.data = Uri.parse("https://vigyanportal.web.app/")
+            startActivity(openURL)
         }
     }
 }

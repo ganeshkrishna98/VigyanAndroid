@@ -99,21 +99,6 @@
             android:name=".ui.cs_lec_vid.Cs_lec_s12_MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Teacher_Webview_MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ui.notification_act.Mech_not_MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ui.notification_act.Elec_ec_not_MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ui.notification_act.Elec_comm_not_MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ui.notification_act.Comp_not_MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".ui.me_notes.Mech_s12_notes_MainActivity"
             android:screenOrientation="portrait" />
         <activity
