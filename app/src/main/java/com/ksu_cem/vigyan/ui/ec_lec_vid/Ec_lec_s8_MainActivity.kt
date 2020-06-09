@@ -20,6 +20,8 @@ class Ec_lec_s8_MainActivity : AppCompatActivity() {
             Uri.parse("https://drive.google.com/drive/folders/1m_6cCRism1pLNYBvwQLuZ5A4uJ0VbyNF?usp=sharing")//acs
         val uris7: Uri =
             Uri.parse("https://drive.google.com/drive/folders/1-vdzw3Mi34PEttcuR_G9ZYxsr3l6OwPH?usp=sharing")//ele
+        val uris8: Uri =
+            Uri.parse("https://drive.google.com/drive/folders/1Lk2_0Ih9NObCivsyPItjq18fJDBjGz0_?usp=sharing")//com ele
 
         val btn8 = findViewById<Button>(R.id.button8) //ne btn
         btn8.setOnClickListener{
@@ -36,6 +38,10 @@ class Ec_lec_s8_MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, uris7)
             startActivity(intent)
         }
-
+        val btn12 = findViewById<Button>(R.id.button12) // com ele
+        btn12.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, uris8)
+            startActivity(intent)
+        }
     }
 }

@@ -146,4 +146,5 @@
     <string name="nano_electronics">Nano Electronics</string>
     <string name="advanced_communication_systems">Advanced Communication Systems</string>
     <string name="elective">Elective</string>
+    <string name="common_elective">Common Elective</string>
 </resources>

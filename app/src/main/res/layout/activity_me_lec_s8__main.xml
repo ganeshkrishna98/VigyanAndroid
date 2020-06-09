@@ -60,6 +60,19 @@
         app:layout_constraintStart_toStartOf="@+id/guideline33"
         app:layout_constraintTop_toTopOf="@+id/guideline41" />
 
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/btn1"
+        android:text="@string/common_elective"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline43"
+        app:layout_constraintEnd_toStartOf="@+id/guideline34"
+        app:layout_constraintStart_toStartOf="@+id/guideline33"
+        app:layout_constraintTop_toTopOf="@+id/guideline42" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
